@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
   
   <title>Frontend Mentor | Order summary card</title>
 </head>
@@ -18,15 +19,15 @@
     <div id="order-summary">
       <h1>Order Summary</h1>
       <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
-      <div id="plan-slice">
-        <div id="plan-icon">
+      <div id="plan-slice-container">
+        <div id="plan-icon" class="plan-slice-col">
           <img src="./images/icon-music.svg">
         </div>
-        <div id="plan-info">
+        <div id="plan-info" class="plan-slice-col">
           <p id="plan-info-name">Annual Plan</p>
           <p id="plan-info-price">$59.99/year</p>
         </div>
-        <div id="plan-change">
+        <div id="plan-change" class="plan-slice-col">
           <p><a href="#">Change</a></p>
         </div>
       </div>
@@ -40,7 +41,7 @@
       <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.</p>
       <p>Coded by <a href="#">Russell</a>.</p>
     </div>
-    
+
   </div>
 </body>
 </html>

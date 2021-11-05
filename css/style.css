@@ -6,3 +6,14 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+/* plan info slice */
+
+#plan-slice-container {
+  width: 450px;
+}
+
+.plan-slice-col {
+  width: 33.3%;
+  float: left;
+}
