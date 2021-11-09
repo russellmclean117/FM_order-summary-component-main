@@ -4,9 +4,19 @@
 
 /* */
 
+body {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+/* */
+
 #order-summary-card {
   width: 454px;
   margin: auto;
+}
+
+#order-summary-card p {
+  font-size: 16px;
 }
 
 /* plan info slice */
