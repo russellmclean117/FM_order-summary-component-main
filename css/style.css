@@ -7,6 +7,7 @@
 body {
   font-family: "Red Hat Display", sans-serif;
   text-align: center;
+  background-color: hsl(225, 100%, 98%);
 }
 
 /* */
@@ -20,10 +21,20 @@ body {
   font-size: 16px;
 }
 
+#order-summary {
+  background-color: white;
+}
+
 /* plan info slice */
 
+#plan-slice-container {
+  background-color: hsl(225, 100%, 98%);
+  width: 90%;
+  margin: auto;
+}
+
 .plan-slice-col {
-  width: 32%;
+  width: 30%;
   display: inline-block;
 }
 
@@ -31,11 +42,18 @@ body {
   text-align: left;
 }
 
+/* payment */
+
+#payment-button {
+  background-color: hsl(223, 47%, 23%);
+}
+
 /* attribution */
 
 .attribution {
   font-size: 11px;
   text-align: center;
+  background-color: white;
 }
 
 .attribution a {
