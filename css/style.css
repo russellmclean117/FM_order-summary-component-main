@@ -61,6 +61,7 @@ a {
   margin: 10px auto;
   border-radius: 15px;
   line-height: 50px;
+  font-weight: bold;
 }
 
 #cancel-button {
@@ -68,6 +69,7 @@ a {
   height: 50px;
   margin: 10px auto;
   line-height: 50px;
+  font-weight: bold;
 }
 
 #cancel-button a {
