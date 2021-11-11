@@ -17,16 +17,13 @@ a {
 /* */
 
 #order-summary-card {
-  width: 454px;
+  width: 450px;
   margin: auto;
+  background-color: white;
 }
 
 #order-summary-card p {
   font-size: 16px;
-}
-
-#order-summary {
-  background-color: white;
 }
 
 /* plan info slice */
@@ -75,7 +72,6 @@ a {
 .attribution {
   font-size: 11px;
   text-align: center;
-  background-color: white;
 }
 
 .attribution a {
