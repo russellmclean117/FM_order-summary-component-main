@@ -1,6 +1,6 @@
-/** {
+* {
   border: 1px solid black;
-} */
+}
 
 /* */
 
@@ -29,7 +29,7 @@ body {
 
 #plan-slice-container {
   background-color: hsl(225, 100%, 98%);
-  width: 90%;
+  width: 85%;
   margin: auto;
 }
 
@@ -46,6 +46,9 @@ body {
 
 #payment-button {
   background-color: hsl(223, 47%, 23%);
+  width: 85%;
+  height: 50px;
+  margin: 30px auto;
 }
 
 /* attribution */
