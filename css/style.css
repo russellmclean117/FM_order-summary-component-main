@@ -1,6 +1,6 @@
-* {
+/* {
   border: 1px solid black;
-}
+} */
 
 /* */
 
@@ -8,6 +8,10 @@ body {
   font-family: "Red Hat Display", sans-serif;
   text-align: center;
   background-color: hsl(225, 100%, 98%);
+}
+
+a {
+  text-decoration: none;
 }
 
 /* */
@@ -31,6 +35,7 @@ body {
   background-color: hsl(225, 100%, 98%);
   width: 85%;
   margin: auto;
+  border-radius: 15px;
 }
 
 .plan-slice-col {
@@ -45,10 +50,24 @@ body {
 /* payment */
 
 #payment-button {
-  background-color: hsl(223, 47%, 23%);
+  background-color: hsl(223, 75%, 41%);
+  color: white;
   width: 85%;
   height: 50px;
-  margin: 30px auto;
+  margin: 10px auto;
+  border-radius: 15px;
+  line-height: 50px;
+}
+
+#cancel-button {
+  width: 85%;
+  height: 50px;
+  margin: 10px auto;
+  line-height: 50px;
+}
+
+#cancel-button a {
+  color: grey;
 }
 
 /* attribution */
