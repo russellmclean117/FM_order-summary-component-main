@@ -33,11 +33,23 @@ a {
   border-radius: 15px 15px 0px 0px;
 }
 
+/* order summary */
+
+#order-summary p {
+  width: 80%;
+  margin: 10px auto;
+  color: grey;
+}
+
+#order-summary h1 {
+  color: hsl(223, 47%, 23%);
+}
+
 /* plan info slice */
 
 #plan-slice-container {
   background-color: hsl(225, 100%, 98%);
-  width: 85%;
+  width: 80%;
   margin: auto;
   border-radius: 15px;
 }
@@ -51,12 +63,17 @@ a {
   text-align: left;
 }
 
+#plan-info #plan-info-name {
+  color: hsl(223, 47%, 23%);
+  font-weight: bold;
+}
+
 /* payment */
 
 #payment-button {
   background-color: hsl(223, 75%, 41%);
   color: white;
-  width: 85%;
+  width: 80%;
   height: 50px;
   margin: 10px auto;
   border-radius: 15px;
@@ -65,7 +82,7 @@ a {
 }
 
 #cancel-button {
-  width: 85%;
+  width: 80%;
   height: 50px;
   margin: 10px auto;
   line-height: 50px;
