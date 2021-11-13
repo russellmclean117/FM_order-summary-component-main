@@ -1,6 +1,7 @@
-/* {
+* {
   border: 1px solid black;
-} */
+  box-sizing: border-box;
+}
 
 /* */
 
@@ -37,7 +38,7 @@ a {
 
 #order-summary p {
   width: 80%;
-  margin: 10px auto;
+  margin: 10px auto 20px;
   color: grey;
 }
 
@@ -50,22 +51,27 @@ a {
 #plan-slice-container {
   background-color: hsl(225, 100%, 98%);
   width: 80%;
-  margin: auto;
+  margin: 0 auto 30px;
   border-radius: 15px;
 }
 
 .plan-slice-col {
-  width: 30%;
   display: inline-block;
 }
 
 #plan-info {
+  width: 49%;
   text-align: left;
 }
 
 #plan-info #plan-info-name {
   color: hsl(223, 47%, 23%);
   font-weight: bold;
+}
+
+#plan-icon,
+#plan-change {
+  width: 24%;
 }
 
 /* payment */
