@@ -21,7 +21,9 @@ a {
   width: 450px;
   margin: auto;
   background-color: white;
-  border-radius: 0px 0px 15px 15px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px 0 hsl(223, 30%, 60%),
+    0px 6px 20px 0 hsl(223, 30%, 60%);
 }
 
 #order-summary-card p {
@@ -101,6 +103,8 @@ a {
   border-radius: 15px;
   line-height: 50px;
   font-weight: bold;
+  box-shadow: 0px 4px 8px 0 hsl(223, 30%, 60%),
+    0px 6px 20px 0 hsl(223, 30%, 60%);
 }
 
 #cancel-button {
