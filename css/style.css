@@ -1,10 +1,12 @@
 /*
   FIXME: fix box shadows
+  FIXME: vertically center the card
   TODO: add attribution to bottom of page
+  TODO: add background pattern
 */
 
 * {
-  /* border: 1px solid black; */
+  /*border: 1px solid black; */
   box-sizing: border-box;
 }
 
@@ -20,9 +22,20 @@ a {
   text-decoration: none;
 }
 
+#window-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
 /* card */
 
 #order-summary-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+
   width: 450px;
   margin: auto;
   background-color: white;
@@ -52,6 +65,7 @@ a {
 #order-summary h1 {
   color: hsl(223, 47%, 23%);
   font-weight: 900;
+  margin-top: 40px;
 }
 
 /* plan info slice */
@@ -91,7 +105,7 @@ a {
 }
 
 #plan-info #plan-info-price {
-  color: grey;
+  color: hsl(183, 11%, 58%);
 }
 
 #plan-change {
@@ -131,7 +145,7 @@ a #payment-button:hover {
 #cancel-button {
   width: 80%;
   height: 50px;
-  margin: 10px auto;
+  margin: 20px auto 40px;
   line-height: 50px;
 }
 
@@ -149,13 +163,17 @@ a #payment-button:hover {
 .attribution {
   font-size: 11px;
   text-align: center;
-  border-radius: 0px 0px 15px 15px;
 }
 
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
 
-.attribution #coded-by {
-  border-radius: 0px 0px 15px 15px;
+#footer-container {
+  position: fixed;
+  bottom: 5px;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  text-align: center;
 }
