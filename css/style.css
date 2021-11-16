@@ -21,7 +21,7 @@ a {
   text-decoration: none;
 }
 
-/* */
+/* card */
 
 #order-summary-card {
   width: 450px;
@@ -47,11 +47,12 @@ a {
 #order-summary p {
   width: 80%;
   margin: 10px auto 20px;
-  color: grey;
+  color: hsl(183, 11%, 58%);
 }
 
 #order-summary h1 {
   color: hsl(223, 47%, 23%);
+  font-weight: 900;
 }
 
 /* plan info slice */
@@ -98,6 +99,17 @@ a {
   padding-top: 14px;
 }
 
+#plan-change a {
+  text-decoration: underline;
+  color: blue;
+  font-weight: 700;
+}
+
+#plan-change a:hover {
+  color: hsl(259, 85%, 62%);
+  text-decoration: none;
+}
+
 /* payment */
 
 #payment-button {
@@ -113,16 +125,24 @@ a {
     0px 6px 20px 0 hsl(223, 30%, 60%);
 }
 
+a #payment-button:hover {
+  background-color: hsl(259, 85%, 62%);
+}
+
 #cancel-button {
   width: 80%;
   height: 50px;
   margin: 10px auto;
   line-height: 50px;
-  font-weight: bold;
 }
 
 #cancel-button a {
-  color: grey;
+  color: hsl(183, 11%, 58%);
+  font-weight: bold;
+}
+
+#cancel-button a:hover {
+  color: hsl(223, 47%, 23%);
 }
 
 /* attribution */
