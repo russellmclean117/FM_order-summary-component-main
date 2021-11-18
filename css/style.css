@@ -29,6 +29,7 @@ a {
   left: 50%;
   transform: translate(-50%, -51%);
   width: 450px;
+  height: 680px;
   margin: 0 auto;
   background-color: white;
   border-radius: 15px;
