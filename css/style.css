@@ -1,8 +1,7 @@
 /*
   FIXME: fix box shadows
-  FIXME: vertically center the card
   FIXME: margin after cancel button not working
-  FIXME: backgrount color doesnt match design
+  FIXME: background color doesnt match design
 */
 
 * {
@@ -25,6 +24,10 @@ a {
 /* card */
 
 #order-summary-card {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -51%);
   width: 450px;
   margin: 0 auto;
   background-color: white;
@@ -134,7 +137,7 @@ a #payment-button:hover {
 #cancel-button {
   width: 80%;
   height: 50px;
-  margin: 20px auto 40px;
+  margin: 30px auto 20px;
 }
 
 #cancel-button a {
