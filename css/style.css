@@ -1,6 +1,6 @@
 /*
   FIXME: fix box shadows
-  FIXME: margin after cancel button not working
+  FIXME: thin white line at edge of header image
 */
 
 * {
@@ -14,6 +14,7 @@ body {
   background-image: url("../images/pattern-background-desktop.svg");
   background-repeat: repeat-x;
   background-color: hsl(224, 100%, 95%);
+  min-height: 720px;
 }
 
 a {
