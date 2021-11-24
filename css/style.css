@@ -1,7 +1,6 @@
 /*
   FIXME: fix box shadows
   FIXME: margin after cancel button not working
-  FIXME: background color doesnt match design
 */
 
 * {
@@ -19,6 +18,10 @@ body {
 
 a {
   text-decoration: none;
+}
+
+.grey-text {
+  color: hsl(232, 10%, 59%);
 }
 
 /* card */
@@ -52,7 +55,6 @@ a {
 #order-summary p {
   width: 80%;
   margin: 10px auto 20px;
-  color: hsl(183, 11%, 58%);
 }
 
 #order-summary h1 {
@@ -97,10 +99,6 @@ a {
   margin-top: 2px;
 }
 
-#plan-info #plan-info-price {
-  color: hsl(183, 11%, 58%);
-}
-
 #plan-change {
   padding-top: 14px;
 }
@@ -142,7 +140,6 @@ a #payment-button:hover {
 }
 
 #cancel-button a {
-  color: hsl(183, 11%, 58%);
   font-weight: bold;
 }
 
