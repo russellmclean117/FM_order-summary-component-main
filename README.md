@@ -40,8 +40,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/russellmclean117/FM_order-summary-component-main)
-- Live Site URL: [Add live site URL here](https://russellmclean117.github.io/FM_order-summary-component-main/)
+- Live Site: [https://russmc.github.io/FM_order-summary-component/](https://russmc.github.io/FM_order-summary-component/)
 
 ## My process
 
